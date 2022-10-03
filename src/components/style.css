@@ -1,0 +1,52 @@
+input[type='number']{
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+input[type='number']:focus{
+    border-left: 5px solid beige;
+    
+}
+
+input[type='submit']{
+    background: black;
+    border: 2px solid white;
+    color: white;
+    transition: all 300ms;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+input[type='submit']:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.presentacion img{
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow: inset 28px 28px 56px #5a5a5a,
+                inset -28px -28px 56px #ffffff;
+}
+
+.presentacion button{
+    margin: 10% 30%;
+    background: black;
+    border: 2px solid white;
+    color: white;
+    transition: all 300ms;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.presentacion button:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
